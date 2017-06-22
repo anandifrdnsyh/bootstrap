@@ -6,25 +6,53 @@
     <link rel="stylesheet"href="css/bootstrap.css">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>bootsrap</title>
   </head>
   <body>
+    <nav class="navbar" id = "top">
+  				<div class="container-fluid">
+  					<div class="navbar-header">
+  						<a class="navbar-brand" href="index.html"></a>
+  						<button class="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#topNavbar">
+  							<span class="glyphicon glyphicon-align-justify"></span>
+  						</button>
+  					</div>
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">MASI BELAJAR KOK</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">HOME</a></li>
-      <li><a href="#">ADMIN</a></li>
-      <li><a href="#">SETTING</a></li>
-      <li><a href="#">ABOUT</a></li>
+      <li class="active"><a data-toggle="tab" href="#">Home</a></li>
+      <li><a data-toggle="tab" href="menu1">ADMIN</a></li>
+      <li><a data-toggle="tab" href="menu2">SETTING</a></li>
+      <li><a data-toggle="tab" href="menu3">ABOUT</a></li>
     </ul>
   </div>
 </nav>
+<div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>ADMIN</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>SETTING</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>ABOUT</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
 
   <div class="row">
    <div class="col-sm-4" style="background-color:lavender;">.SURABAYA</div>
@@ -32,20 +60,85 @@
           <a href="/malang.jpg" target="_blank">
           <img class="img-responsive" src="surabaya.jpg" alt="surabaya" width="300" height="200">
           <div class="caption">
-            <p>selanjutnya<<</p>
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
 
    <div class="col-sm-4" style="background-color:lavenderblush;">.MALANG</div>
    <div class="thumbnail">
      <img class="img-responsive" src="malang.jpg" alt="malang" width="300" height="200">
           <div class="caption">
-            <p>selanjutnya<<</p>
-            
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
    <div class="col-sm-4" style="background-color:lavender;">.SIDOARJO</div><div class="thumbnail">
      <img class="img-responsive" src="sidoarjo.jpg" alt="sidoarjo" width="300" height="200">
           <div class="caption">
-            <p>selanjutnya<<</p>
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
 
       </div>
+      <div  id = "footer">
+				<div class="disclaimer">
 
+					<div class="row">
+
+						<div class="col-sm-3">
+
+							<h6>ABOUT US</h6>
+
+								<h6  class = "isiFooter">Sekumpulan pelajar yang ingin membangun sebuah komunitas
+								untuk tempat wadah belajar bagi para pelajar dan mahasiswa,
+								 dan saling berbagi
+							ilmu satu sama lain</h6>
+
+						</div>
+						<div class="col-sm-3 ">
+
+							<h6>CONTACT INFORMATION</h6>
+
+
+							<h6  class = "isiFooter">+62 821 1250 7569</h6>
+							<h6  class = "isiFooter">kuliahpluplus@gmail.com</h6>
+
+						</div>
+
+						<div class="col-sm-3">
+
+							<h6>NEWSLETTER</h6>
+
+							<h6 class="isiFooter">Subcribe for get new update</h6>
+
+							<form class="" action="index.html" method="post">
+
+								<input type="email" name="" value="enter your email">
+								<button type="submit" name="button" class="btn-danger">SUBSCRIBE</button>
+
+
+							</form>
+
+						</div>
+
+      <div class="col-sm-3">
+      							<h6>SOCIAL MEDIA</h6>
+      							<a class="" >
+
+      			 <h6><span class="fa fa-facebook"></span> Like our Facebook Page</h6>
+      		 </a>
+
+      		 <a class="" >
+      		 	<h6><span class="fa fa-instagram"></span> Follow us on Instagram</h6>
+      		</a>
+
+      		<a class="" >
+      		 <h6><span class="fa fa-github"></span> Check our Github</h6>
+      	 </a>
+
+      						</div>
+      					</div>
+
+      				</div>
+      				<br>
+      				<br>
+      				<br>
+      				<div class="copyright">
+      					<h6 class="align-left"style="color:#d8d8d8;" >Copyright &copy 2017 KULIAH PLUSPLUS. All Right Reserved</h6>
+      				</div><!-- end copyright -->
+      			</div>
   </body>
 </html>
